@@ -1,0 +1,6 @@
+Select 
+ country, 
+ Count(Player_id),
+From Player
+Group by 
+ country
